@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Project1">
+    <Resource   auth="Container" 
+                driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+                url="jdbc:sqlserver://localhost:1433;databaseName=ShoppingWebDB" 
+                logAbandoned="true" 
+                maxActive="100" maxIdle="30" maxWait="10000" 
+                name="jdbc/shoppingweb" username="sa" password="123456" 
+                removeAbandoned="true" 
+                removeAbandonedTimeOut="60" 
+                type="javax.sql.DataSource" 
+            
+            />
+</Context>

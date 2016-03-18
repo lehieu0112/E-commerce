@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0F0F0;
+    font-family: 'Noto Serif', serif;
+    font-size: 11pt;
+}
+#note{
+    width: 13em;
+    padding-left: 8em;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/*Header*/
+header{
+    background-color: #FDD504;
+    color: #666666;
+    font-size: medium;      
+}
+#header_a{
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+}
+header img{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+header h1{
+    float: left;
+    margin-left: 10px;  
+    margin-top: 10px;
+}
+
+#loginmessage{
+    color: red;
+}
+/*Header*/
+
+/*Header Infomation*/
+#header_information {
+    clear: both;
+    width: 100%;  
+    height: 260px;
+    background-color: #F0F0F0;
+}
+#header_promotion {
+    width: 67.5%;
+    height: 256px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: #FDD504;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#header_main {
+    width: 30.3%;
+    height: 256px;   
+    float: right;
+    margin-top: 2px;
+}
+#header_main_choose {
+    padding: 10px;
+    height: 80px;
+    background-color: #FDD504;
+}
+#header_main_choose select option {
+    display: block;
+    width: 60%;    
+    background-color: white;
+    color: black;
+}
+#header_main_login {
+    padding: 10px;
+    margin-top: 2px;
+    height: 134px;
+    background-color: #FDD504;
+}
+#header_main_login a{
+    color: #666666;
+}
+#header_main label{
+    float:left;
+    width: 9em;
+    text-align: left;
+}
+#input_email {
+    padding: 1px;
+    width: 40%;
+    height: 22px;
+}
+#input_password {
+    padding: 1px;
+    width: 40%;
+    height: 22px;
+    margin-top: 5px;
+}
+#choose_manufacture {
+    width: 40%;
+    height: 25px;
+}
+#choose_category {
+    width: 40%;
+    height: 25px;
+    margin-top: 5px;
+}
+#loginButton{
+    width: 15%;
+    margin-left: 2em;
+    margin-top: 2px;
+}
+#viewButton{
+    width: 15%;
+    margin-left: 10.7em;
+    margin-top: 2px;
+}
+.login_form{
+    display: inline-block;
+    margin: 2px;
+}
+#logoutButton,#editButton,#showButton {
+    width: 8.5em;
+    margin: 2px;  
+}
+/*Header Infomation*/
+
+/*Top Menu*/
+#top_menu ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    position: relative;
+}
+#top_menu ul li {
+    float: left;
+}
+#top_menu ul li a {
+    display: inline-block;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#top_menu li a:hover {
+    background-color: #CCCCCC;
+}
+#top_menu #searchform {
+    float: right;
+}
+#searchform form {  
+    padding: 14px 16px;
+}
+/*Top Menu*/
+
+/*Main_homepage*/
+#product_selling {
+    height: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#product_promotion {
+    height: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#product_new {
+    height: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.floating-box {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 240px;
+    margin: 5px;
+    border: 1px solid #666666;
+    background-color: white;
+    text-align: center;   
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #666666;
+}
+#homepage a {
+    text-decoration: none;
+    color: #666666;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: medium;
+}
+#homepage a:hover{
+    color: black;
+}
+#div1{
+    background-color: #F0F0F0;
+}
+#div2{
+    background-color: #FDD504;
+}
+#div3{
+    background-color: #F0F0F0;
+}
+/*Main_homepage*/
+
+/*Products Page*/
+#products_page{
+    background-color: #F0F0F0;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+#products_button{
+    clear: left;
+    margin: 10px;
+}
+#products_button input{
+    display: block;
+    float: left;
+    padding: 3px;
+    width: 2em;
+    margin: 10px;
+}
+/*Products Page*/
+
+/*Product Detail*/
+#products_detail{
+    width: 100%;
+    clear: both;
+    height: 900px;
+}
+#products_information {
+    float: left;
+    padding: 10px;
+    width: 35%;
+    margin-left: 10%;
+    background-color: white;
+    height: 900px;
+}
+#products_description {
+    padding: 10px;
+    margin-right: 10%;
+    width: 42%;
+    background-color: white;
+    float: right;
+    height: 900px;
+}
+#submit {
+    float: left;
+    margin-left: 10px;
+}
+
+/*Product Detail*/
+
+/*Products Compare*/
+
+#products_compare1{
+    background-color: white;
+    width: 38%;
+    height: 1300px;
+    margin-left: 10%;
+    padding: 10px;
+    float: left;
+}
+#products_compare2{   
+    width: 38%;
+    height: 1300px;
+    margin-right: 10%;  
+    padding: 10px;
+    float: right;
+}
+#products_compare3{ 
+    background-color: white;
+    width: 38%;
+    height: 1300px;
+    margin-right: 10%;  
+    padding: 10px;
+    float: right;
+}
+#products_button2 {
+    clear: both;
+    margin: 10px;
+}
+#products_button2 input{
+    display: block;
+    float: left;
+    padding: 3px;
+    width: 2em;
+    margin: 10px;
+}
+/*Products Compare*/
+
+/*Cart*/
+#cart{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    width: 80%;
+    float: left;
+}
+#cart table, td, th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#cart table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#quantity{
+    width: 3em;
+}
+#checkout{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    width: 45%;
+    height: 700px;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+#checkout input {
+    width: 245px;
+    margin: .5em;
+    padding: .2em;
+}
+#checkout #creditcard{
+    width: 100px;
+    margin: .5em;
+    padding: .2em;
+}
+#checkout #creditcardtype{
+    width: 245px;
+    margin: .5em;
+    padding: .2em;
+}
+#checkout label{
+    float:left;
+    width: 11.5em;
+    text-align: right;
+}
+#checkout textarea{
+    width: 400px;
+}
+.required{
+    color: red;
+}
+/*Cart*/
+
+/*Register Page*/
+#register_page {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: white;
+}
+#profile_image {
+    cursor: pointer;
+    background: white;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+}
+#register_page p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#register_page label {
+    float: left;
+    margin-top: 5px;
+    width: 8em;
+    text-align: left;
+}
+#register_page input {
+    width: 12em;
+    padding: 3px;
+    margin: 5px;
+}
+#signup {
+    width: 7em;
+    margin-top: 5px;
+}
+/*Register Page*/
+
+/*Footer*/
+footer{
+    clear: left;
+    background-color: #FDD504;
+    color: #666666;
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+}
+/*Footer*/
+
+
+/*Management Page*/
+#header_management {
+    background-color: #FDD504;
+    width: 100%;
+    color: black;
+    font-size: large;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+.management_page {
+    float: right;
+    height: 780px;
+    width: 62.7%;
+    margin-right: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+
+.management_page table, td, th {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+.management_page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.management_page label {  
+
+    margin-top: 5px;
+    width: 9em;
+    text-align: left;
+}
+.edit_product label{
+    float:left;
+}
+.management_page input,select {
+    width: 12em;
+    padding: 2px;
+    margin: 2px;
+}
+
+#searchorder_form{
+    float: left;
+    width: 90%;
+    height: 60px;
+    border: 1px solid #666666;
+    margin: 2px;
+}
+
+#searchorder_form form {  
+    padding: 14px 16px;
+}
+
+.tablebutton {
+    display: inline-block;  
+}
+.tablebutton input{
+    width: 4.3em;
+}
+#listproductbutton{
+    width: 4em;
+}
+.management_page .editproductInput{
+    width: 80%;
+}
+.orderbutton {
+    display: inline-block;width:4em;
+}
+/*Management Page*/
+
+/*Management Sidebar*/
+.sidebarA { 
+    width: 15%; 
+    float: left; 
+    height: 800px;
+    margin-left: 10%;
+    background-color: #666666;
+}
+.left_menu ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #666666;
+}
+.left_menu li a {
+    display: block;
+    font-size: large;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.left_menu li a:hover {
+    background-color: #CCCCCC;
+}
+
+/*Management Sidebar*/
+
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame {
+position: relative;
+}      
+#slider, #slider div.sliderInner {
+    width: 800px;
+	height: 256px;
+}
+#slider {
+	
+	position: relative;
+	margin: 0 auto;
+    transform: translate3d(0,0,0);
+}
+#slider div.navBulletsWrapper  {
+	display: none;
+}
+#slider img {
+	position: absolute; 
+	border: none; 
+	display: none;
+}
+#slider>a {
+	display:none;
+}
+#slider div {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.group1-Wrapper {
+    position: absolute;
+    z-index: 40;
+    top: 60px;
+    margin-left: 50%;
+    width: 1px;
+}
+a.group1-Prev, a.group1-Next {
+    width: 50px;
+	height: 110px;
+    background: transparent url(/Project1/images/navbuttons2.gif); 
+    display: block; 
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+a.group1-Prev{
+	background-position: 0 0; 
+	left: -460px;}
+a.group1-Next {
+	background-position: 0 -150px;
+	left: 410px;}
+
+a.group1-Prev:hover{
+background-position: 50px 0;}
+a.group1-Next:hover {
+background-position: 50px -150px;}
