@@ -1,7 +1,7 @@
 
 <footer>
     <br>
-    <p>&COPY; 2016 Copyright by OJT Group 1
+    <p>&COPY; 2016 Copyright by lehieuevn112@gmail.com
     </p><br>
 </footer>
 </body>
